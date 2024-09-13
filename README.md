@@ -17,6 +17,11 @@ npm install primeicons
 npm install -D sass-embedded
 ```
 
+```bash
+npm i pinia @pinia/nuxt
+npm i -D @pinia-plugin-persistedstate/nuxt
+```
+
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
 ## Setup
