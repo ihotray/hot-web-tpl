@@ -1,6 +1,8 @@
-# Nuxt 3 Minimal Starter
+# A admin tpl base on nuxt3, primevue4, typescript and so on.
+![image](screen1.png)
+![image](screen2.png)
 
-## packages && modules
+## Packages && modules base on(for memo)
 
 - tailwindcss
 ```bash
@@ -38,6 +40,7 @@ npm i vue3-perfect-scrollbar
 npm i bootstrap bootstrap-vue-next @bootstrap-vue-next/nuxt -D
 ```
 
+# Nuxt 3 Minimal Starter
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
 ## Setup
