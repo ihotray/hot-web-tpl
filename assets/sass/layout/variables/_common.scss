@@ -1,0 +1,51 @@
+/* General */
+$fontSize:14px;
+$borderRadius:12px;
+$transitionDuration:.2s;
+$maskBg:rgba(0, 0, 0, 0.4);
+
+$topbar-height: 5.75rem;
+
+$main-menu-item-height: 8.5rem;
+$main-menu-width: 8.5rem;
+$main-menu-width-lg: 8.5rem;
+$main-menu-width-md: 8.5rem;
+$main-menu-width-xs: 8.5rem;
+
+$sub-menu-width: 16rem;
+$sub-menu-width-lg: 16rem;
+$sub-menu-width-md: 16rem;
+$sub-menu-width-xs: 16rem;
+
+
+$main-margin: 1.5rem;
+$main-margin-lg: 1.5rem;
+$main-margin-md: 1.5rem;
+$main-margin-xs: 1.5rem;
+
+$main-menu-item-height-mobile: 6.425rem;
+
+$menu-collapse-time: 300ms;
+$animation-time-long: 1000ms;
+$animation-time-short: 200ms;
+
+:root {
+    --primary-color: var(--p-primary-color);
+    --primary-contrast-color: var(--p-primary-contrast-color);
+    --text-color: var(--p-text-color);
+    --text-color-secondary: var(--p-text-muted-color);
+    --surface-border: var(--p-content-border-color);
+    --surface-card: var(--p-content-background);
+    --surface-hover: var(--p-content-hover-background);
+    --surface-overlay: var(--p-overlay-popover-background);
+    --transition-duration: var(--p-transition-duration);
+    --maskbg: var(--p-mask-background);
+    --content-border-radius: var(--p-content-border-radius);
+    --layout-section-transition-duration: 0.2s;
+    --element-transition-duration: var(--p-transition-duration);
+    --focus-ring-width: var(--p-focus-ring-width);
+    --focus-ring-style: var(--p-focus-ring-style);
+    --focus-ring-color: var(--p-focus-ring-color);
+    --focus-ring-offset: var(--p-focus-ring-offset);
+    --focus-ring-shadow: var(--p-focus-ring-shadow);
+}

@@ -1,0 +1,3 @@
+<template>
+    internet setting
+</template>

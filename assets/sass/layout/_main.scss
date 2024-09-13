@@ -1,0 +1,82 @@
+.layout-main-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
+  padding: 6rem 2rem 0 2rem;
+  transition: margin-left var(--layout-section-transition-duration);
+}
+
+.layout-main {
+  flex: 1 1 auto;
+  padding-bottom: 2rem;
+}
+
+main {
+  margin-left: $sub-menu-width + $main-menu-width + $main-margin;
+
+  &.sub-hidden {
+    margin-left: $main-menu-width + $main-margin;
+  }
+
+  &.main-hidden {
+    margin-left: $main-margin;
+  }
+
+  @include respond-below(xl) {
+    margin-left: $sub-menu-width-lg + $main-menu-width-lg + $main-margin-lg;
+  }
+
+  @include respond-below(lg) {
+    margin-left: $sub-menu-width-md + $main-menu-width-md + $main-margin-md;
+  }
+
+  @include respond-below(sm) {
+    margin-left: $main-margin-xs !important;
+  }
+
+  @include respond-below(xs) {
+    margin-bottom: 0;
+  }
+}
+
+body.default-transition main {
+  transition: margin-left $menu-collapse-time;
+}
+
+.sub-hidden main,
+.menu-sub-hidden main,
+.menu-hidden main {
+  margin-left: $main-menu-width + $main-margin;
+}
+
+.main-hidden main,
+.menu-hidden main {
+  margin-left: $main-margin;
+}
+
+@include respond-below(xl) {
+  .sub-hidden main,
+  .menu-sub-hidden main,
+  .menu-hidden main {
+    margin-left: $main-menu-width-lg + $main-margin-lg;
+  }
+
+  .main-hidden main,
+  .menu-hidden main {
+    margin-left: $main-margin-lg;
+  }
+}
+
+@include respond-below(lg) {
+  .sub-hidden main,
+  .menu-sub-hidden main,
+  .menu-hidden main {
+    margin-left: $main-menu-width-md + $main-margin-md;
+  }
+
+  .main-hidden main,
+  .menu-hidden main {
+    margin-left: $main-margin-md;
+  }
+}
