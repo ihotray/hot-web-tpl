@@ -28,6 +28,16 @@ npm i -D @pinia-plugin-persistedstate/nuxt
 npx nuxi@latest module add i18n
 ```
 
+- vue3-perfect-scrollbar
+```bash
+npm i vue3-perfect-scrollbar
+```
+
+- bootstrap-vue-next
+```bash
+npm i bootstrap bootstrap-vue-next @bootstrap-vue-next/nuxt -D
+```
+
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
 ## Setup

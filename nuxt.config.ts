@@ -6,10 +6,11 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
     "@nuxtjs/tailwindcss",
-    "@primevue/nuxt-module",
     "@pinia/nuxt",
     "@pinia-plugin-persistedstate/nuxt",
     "@nuxtjs/i18n",
+    "@bootstrap-vue-next/nuxt",
+    "@primevue/nuxt-module",
   ],
   css: ["~/assets/sass/tailwind.css", "~/assets/sass/styles.scss"],
   primevue: {

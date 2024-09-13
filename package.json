@@ -20,11 +20,15 @@
     "primevue": "^4.0.7",
     "tailwindcss-primeui": "^0.3.4",
     "vue": "latest",
-    "vue-router": "latest"
+    "vue-router": "latest",
+    "vue3-perfect-scrollbar": "^2.0.0"
   },
   "devDependencies": {
+    "@bootstrap-vue-next/nuxt": "^0.24.15",
     "@pinia-plugin-persistedstate/nuxt": "^1.2.1",
     "@primevue/nuxt-module": "^4.0.7",
+    "bootstrap": "^5.3.3",
+    "bootstrap-vue-next": "^0.24.15",
     "sass-embedded": "^1.78.0"
   }
 }
