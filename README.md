@@ -3,7 +3,19 @@
 ## packages && modules
 
 - tailwindcss
+```bash
+npx nuxi@latest module add tailwindcss
+npm i tailwindcss-primeui
 
+```
+- primevue && prime theme
+```bash
+npm install primevue
+npm install --save-dev @primevue/nuxt-module
+npm install @primevue/themes
+npm install primeicons
+npm install -D sass-embedded
+```
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 

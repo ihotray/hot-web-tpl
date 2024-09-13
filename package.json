@@ -11,8 +11,16 @@
   },
   "dependencies": {
     "@nuxtjs/tailwindcss": "^6.12.1",
+    "@primevue/themes": "^4.0.7",
     "nuxt": "^3.13.0",
+    "primeicons": "^7.0.0",
+    "primevue": "^4.0.7",
+    "tailwindcss-primeui": "^0.3.4",
     "vue": "latest",
     "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@primevue/nuxt-module": "^4.0.7",
+    "sass-embedded": "^1.78.0"
   }
 }
