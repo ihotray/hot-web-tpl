@@ -1,0 +1,20 @@
+{
+    "common_paginator_report {first} {last} {totalRecords}": "显示 {first} 到 {last} 共 {totalRecords} 条",
+  
+    "home": "首页",
+  
+    "internet": "网络",
+  
+    "wireless": "无线",
+  
+    "devices": "终端",
+  
+    "more": "更多",
+
+    "system": "系统",
+
+    "account": "账户",
+
+    "node": "节点"
+  }
+  

@@ -9,6 +9,7 @@ export default defineNuxtConfig({
     "@primevue/nuxt-module",
     "@pinia/nuxt",
     "@pinia-plugin-persistedstate/nuxt",
+    "@nuxtjs/i18n",
   ],
   css: ["~/assets/sass/tailwind.css", "~/assets/sass/styles.scss"],
   primevue: {

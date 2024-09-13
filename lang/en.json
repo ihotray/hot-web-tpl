@@ -1,0 +1,20 @@
+{
+    "common_paginator_report {first} {last} {totalRecords}": "Showing {first} to {last} of {totalRecords} items",
+  
+    "home": "Home",
+  
+    "internet": "Internet",
+  
+    "wireless": "Wireless",
+  
+    "devices": "Devices",
+  
+    "more": "More",
+
+    "system": "System",
+
+    "account": "Account",
+
+    "node": "Node"
+  }
+  
