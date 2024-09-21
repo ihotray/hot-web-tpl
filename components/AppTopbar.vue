@@ -11,7 +11,7 @@ const topbarImage = () => {
 };
 
 const isDesktop = () => {
-  return window.innerWidth >= 992;
+  return window.innerWidth >= 768;
 };
 
 const onMenuToggle = (e: MouseEvent) => {
