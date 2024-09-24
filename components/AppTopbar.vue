@@ -38,9 +38,8 @@ const onMenuToggle = (e: MouseEvent) => {
       >
         <i class="pi pi-bars"></i>
       </button>
-      <NuxtLink to="/" class="layout-topbar-logo">
-        <img alt="Logo" :src="topbarImage()" class="h-10" />
-        <span class="layout-topbar-title">SMART</span>
+      <NuxtLink to="/" class="layout-topbar-logo ml-6">
+        <img alt="Logo" :src="topbarImage()" class="h-12" />
       </NuxtLink>
     </div>
 
