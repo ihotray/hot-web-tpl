@@ -13,7 +13,7 @@ export default defineNuxtConfig({
     "@bootstrap-vue-next/nuxt",
     "@primevue/nuxt-module",
   ],
-  css: ["~/assets/sass/tailwind.css", "~/assets/sass/styles.scss"],
+  css: ["~/assets/sass/styles.scss"],
   primevue: {
     options: {
       theme: {
