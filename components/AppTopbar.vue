@@ -32,15 +32,18 @@ const onMenuToggle = (e: MouseEvent) => {
 <template>
   <div class="layout-topbar">
     <div class="layout-topbar-logo-container">
+      <NuxtLink to="/" class="layout-topbar-logo ml-6">
+        <img alt="Logo" :src="topbarImage()" class="h-12" />
+        <span>Smart</span>
+      </NuxtLink>
+
       <button
+        type="button"
         class="layout-menu-button layout-topbar-action"
         @click.prevent.stop="onMenuToggle"
       >
         <i class="pi pi-bars"></i>
       </button>
-      <NuxtLink to="/" class="layout-topbar-logo ml-6">
-        <img alt="Logo" :src="topbarImage()" class="h-12" />
-      </NuxtLink>
     </div>
 
     <div class="layout-topbar-actions">
