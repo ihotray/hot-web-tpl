@@ -6,10 +6,12 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
+    "postgenerate": "find dist/ -type f -iname *.html -exec gzip {} ';'; find dist/ -type f -iname *.svg -exec gzip {} ';'",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxt-modules/compression": "^0.1.0",
     "@nuxtjs/i18n": "^8.5.3",
     "@nuxtjs/tailwindcss": "^6.12.1",
     "@pinia/nuxt": "^0.5.4",
@@ -29,6 +31,7 @@
     "@primevue/nuxt-module": "^4.3.0",
     "bootstrap": "^5.3.3",
     "bootstrap-vue-next": "^0.24.15",
-    "sass-embedded": "^1.78.0"
+    "sass-embedded": "^1.78.0",
+    "vite-plugin-compression": "^0.5.1"
   }
 }

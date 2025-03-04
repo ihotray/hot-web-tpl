@@ -6,6 +6,16 @@ export default defineNuxtConfig({
   compatibilityDate: "2024-04-03",
   devtools: { enabled: true },
   modules: [
+    [
+      "@nuxt-modules/compression",
+      {
+        disable: false,
+        threshold: 1025,
+        filter: /\.(js|mjs|css|html|svg|eot|woff|ttf)$/i,
+        algorithm: "gzip",
+        deleteOriginFile: true,
+      },
+    ],
     "@nuxtjs/tailwindcss",
     "@pinia/nuxt",
     "@pinia-plugin-persistedstate/nuxt",
