@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  font-family: "Inter var", "HarmonyOS_Sans_SC_Regular", Heiti, "黑体",
+  font-family: roboto, "Helvetica Neue", arial, "HarmonyOS_Sans_SC_Regular", Heiti, "黑体",
     "Microsoft YaHei", "微软雅黑", STXihei, "华文细黑", SimSun, "宋体",
     sans-serif;
   color: var(--text-color);
@@ -14,23 +14,6 @@ body {
   min-height: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-@font-face {
-  font-family: "Inter var";
-  font-weight: 100 900;
-  font-display: swap;
-  font-style: normal;
-  font-named-instance: "Regular";
-  src: url("../../fonts/Inter-roman.var.woff2?v=3.19") format("woff2");
-}
-@font-face {
-  font-family: "Inter var";
-  font-weight: 100 900;
-  font-display: swap;
-  font-style: italic;
-  font-named-instance: "Italic";
-  src: url("../../fonts/Inter-italic.var.woff2?v=3.19") format("woff2");
 }
 
 a {
