@@ -32,9 +32,9 @@ const onMenuToggle = (e: MouseEvent) => {
 <template>
   <div class="layout-topbar">
     <div class="layout-topbar-logo-container">
-      <NuxtLink to="/" class="layout-topbar-logo ml-6">
+      <NuxtLink to="/" class="layout-topbar-logo ml-6 mr-6">
         <img alt="Logo" :src="topbarImage()" class="h-12" />
-        <span>Smart</span>
+        <span v-if="isDesktop()">Smart</span>
       </NuxtLink>
     </div>
     <div class="layout-menu-button">
@@ -51,7 +51,7 @@ const onMenuToggle = (e: MouseEvent) => {
       <div class="layout-config-menu">
         <button
           type="button"
-          class="layout-topbar-action layout-topbar-action-highlight"
+          class="layout-topbar-action"
           @click="themeStore.toggleDarkMode"
         >
           <i
