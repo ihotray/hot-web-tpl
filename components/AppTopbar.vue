@@ -15,7 +15,7 @@ const isDesktop = () => {
 };
 
 const onMenuToggle = (e: MouseEvent) => {
-  if (isDesktop()) {
+  if (themeStore.isDesktop) {
     menuStore.changeSideMenuStatus({
       step: menuStore.getMenuClickCount() + 1,
       classNames: menuStore.getMenuType(),
@@ -34,7 +34,7 @@ const onMenuToggle = (e: MouseEvent) => {
     <div class="layout-topbar-logo-container">
       <NuxtLink to="/" class="layout-topbar-logo ml-6 mr-6">
         <img alt="Logo" :src="topbarImage()" class="h-12" />
-        <span v-if="isDesktop()">Smart</span>
+        <span v-if="themeStore.isDesktop">Smart</span>
       </NuxtLink>
     </div>
     <div class="layout-menu-button">

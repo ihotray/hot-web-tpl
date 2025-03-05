@@ -3,6 +3,7 @@ import { defineStore } from "pinia";
 export const useThemeStore = defineStore(
   "theme",
   () => {
+    const isDesktop = ref(false);
     const isDark = ref(false);
     const executeDarkModeToggle = () => {
       document.documentElement.classList.toggle("app-dark");
@@ -17,7 +18,7 @@ export const useThemeStore = defineStore(
       document.startViewTransition(() => executeDarkModeToggle());
     };
 
-    return { isDark, executeDarkModeToggle, toggleDarkMode };
+    return { isDesktop, isDark, executeDarkModeToggle, toggleDarkMode };
   },
   {
     persist: true,
